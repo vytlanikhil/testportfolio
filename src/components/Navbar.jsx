@@ -77,7 +77,7 @@ export default function Navbar() {
             <Cpu className="w-6 h-6" />
           </motion.div>
           <span className="tracking-tight hoverable">
-            Priya<span className="text-primary dark:text-primary-light">.Sharma</span>
+            D<span className="text-primary dark:text-primary-light">.Lavanya</span>
           </span>
         </a>
 

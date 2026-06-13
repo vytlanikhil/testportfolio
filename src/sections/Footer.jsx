@@ -62,7 +62,7 @@ export default function Footer() {
             <Cpu className="w-5 h-5" />
           </div>
           <span className="font-display font-bold text-slate-900 dark:text-white tracking-tight">
-            Priya Sharma
+            D Lavanya
           </span>
         </div>
 
@@ -90,7 +90,7 @@ export default function Footer() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2.5">
             <a
-              href="https://github.com/priyasharma"
+              href="https://github.com/lavanyad"
               target="_blank"
               rel="noreferrer"
               className="p-2 rounded-xl bg-slate-200/50 dark:bg-slate-900/50 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary-light hover:bg-slate-200 dark:hover:bg-slate-800 transition-all hoverable"
@@ -99,7 +99,7 @@ export default function Footer() {
               <Github className="w-4 h-4" />
             </a>
             <a
-              href="https://linkedin.com/in/priyasharma"
+              href="https://linkedin.com/in/lavanyad"
               target="_blank"
               rel="noreferrer"
               className="p-2 rounded-xl bg-slate-200/50 dark:bg-slate-900/50 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary-light hover:bg-slate-200 dark:hover:bg-slate-800 transition-all hoverable"
@@ -108,7 +108,7 @@ export default function Footer() {
               <Linkedin className="w-4 h-4" />
             </a>
             <a
-              href="mailto:priya.sharma@example.com"
+              href="mailto:lavanya.d@example.com"
               className="p-2 rounded-xl bg-slate-200/50 dark:bg-slate-900/50 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary-light hover:bg-slate-200 dark:hover:bg-slate-800 transition-all hoverable"
               aria-label="Send Email"
             >
@@ -129,7 +129,7 @@ export default function Footer() {
       {/* Copyright Notice */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 border-t border-slate-200/20 dark:border-slate-900/50 pt-6 text-center">
         <p className="text-[10px] text-slate-400 dark:text-slate-500 tracking-wider">
-          © {new Date().getFullYear()} Priya Sharma. All Rights Reserved. Built with React, Vite & Tailwind CSS.
+          © {new Date().getFullYear()} D Lavanya. All Rights Reserved. Built with React, Vite & Tailwind CSS.
         </p>
       </div>
     </footer>

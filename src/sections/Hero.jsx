@@ -72,7 +72,7 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-slate-900 dark:text-white mb-4 leading-tight">
               Hi, I'm{' '}
               <span className="text-gradient font-extrabold block sm:inline">
-                Priya Sharma
+                D Lavanya
               </span>
             </h1>
 
@@ -157,8 +157,8 @@ export default function Hero() {
               {/* Inside card clip container */}
               <div className="absolute inset-5 rounded-full overflow-hidden border-4 border-white dark:border-slate-900 shadow-2xl bg-slate-200 dark:bg-slate-800">
                 <img
-                  src="/priya_profile.png"
-                  alt="Priya Sharma Profile"
+                  src="/lavanya_profile.png"
+                  alt="D Lavanya Profile"
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -1,10 +1,10 @@
-const CACHE_NAME = 'priya-ece-portfolio-v1';
+const CACHE_NAME = 'lavanya-ece-portfolio-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
   '/favicon.svg',
   '/manifest.json',
-  '/priya_profile.png',
+  '/lavanya_profile.png',
   '/ece_workshop.png',
   '/ece_fest.png'
 ];

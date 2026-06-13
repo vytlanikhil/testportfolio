@@ -104,7 +104,7 @@ export default function Resume() {
                   <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
                 </div>
                 <span className="text-[10px] font-mono text-slate-450 dark:text-slate-500 select-none">
-                  priya_sharma_resume.pdf
+                  lavanya_resume.pdf
                 </span>
               </div>
 
@@ -112,12 +112,12 @@ export default function Resume() {
               <div className="p-6 md:p-8 bg-white dark:bg-slate-950 font-sans text-left max-h-[500px] overflow-y-auto">
                 {/* Header */}
                 <div className="border-b border-slate-200/60 dark:border-slate-800/60 pb-5 mb-5 text-center sm:text-left">
-                  <h4 className="text-xl font-bold text-slate-900 dark:text-white">Priya Sharma</h4>
+                  <h4 className="text-xl font-bold text-slate-900 dark:text-white">D Lavanya</h4>
                   <p className="text-xs text-primary dark:text-primary-light font-semibold tracking-wider uppercase mt-1">
                     Electronics & Communication Engineering Undergraduate
                   </p>
                   <div className="flex flex-wrap justify-center sm:justify-start gap-x-4 gap-y-1 text-[10px] text-slate-500 dark:text-slate-450 mt-2 font-mono">
-                    <span>priya.sharma@example.com</span>
+                    <span>lavanya.d@example.com</span>
                     <span>•</span>
                     <span>+91 9876543210</span>
                     <span>•</span>

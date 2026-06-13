@@ -28,7 +28,7 @@ const projectsData = [
     icon: Cpu,
     color: 'from-violet-500/20 to-purple-500/30',
     iconColor: 'text-purple-500',
-    github: 'https://github.com/priyasharma/smart-home-automation',
+    github: 'https://github.com/lavanyad/smart-home-automation',
     demo: '#',
   },
   {
@@ -40,7 +40,7 @@ const projectsData = [
     icon: CloudSun,
     color: 'from-sky-500/20 to-blue-500/30',
     iconColor: 'text-sky-500',
-    github: 'https://github.com/priyasharma/iot-weather-monitoring',
+    github: 'https://github.com/lavanyad/iot-weather-monitoring',
     demo: '#',
   },
   {
@@ -52,7 +52,7 @@ const projectsData = [
     icon: UserCheck,
     color: 'from-pink-500/20 to-rose-500/30',
     iconColor: 'text-rose-500',
-    github: 'https://github.com/priyasharma/attendance-system',
+    github: 'https://github.com/lavanyad/attendance-system',
     demo: '#',
   },
   {
@@ -64,7 +64,7 @@ const projectsData = [
     icon: Eye,
     color: 'from-emerald-500/20 to-teal-500/30',
     iconColor: 'text-emerald-500',
-    github: 'https://github.com/priyasharma/ai-traffic-monitoring',
+    github: 'https://github.com/lavanyad/ai-traffic-monitoring',
     demo: '#',
   },
 ];

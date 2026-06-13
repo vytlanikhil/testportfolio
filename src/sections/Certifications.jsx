@@ -181,7 +181,7 @@ export default function Certifications() {
                   This document officially certifies that
                 </p>
                 <h4 className="text-2xl font-bold text-gradient-purple mb-4">
-                  Priya Sharma
+                  D Lavanya
                 </h4>
                 
                 <p className="text-sm text-slate-650 dark:text-slate-400 max-w-md mx-auto mb-6 leading-relaxed">

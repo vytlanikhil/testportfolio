@@ -64,7 +64,7 @@ export default function LoadingScreen({ onComplete }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          PRIYA <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">SHARMA</span>
+          D. <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">LAVANYA</span>
         </motion.h1>
         
         <motion.p

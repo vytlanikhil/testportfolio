@@ -102,7 +102,7 @@ export default function About() {
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary to-secondary" />
 
               <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-                Priya Sharma
+                D Lavanya
               </h3>
               <p className="text-slate-650 dark:text-slate-400 mb-6 leading-relaxed">
                 I am an enthusiastic Electronics and Communication Engineering student passionate about solving real-world problems using technology. I enjoy working on IoT systems, embedded programming, web technologies, and innovative engineering projects.

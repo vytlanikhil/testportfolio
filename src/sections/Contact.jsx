@@ -39,8 +39,8 @@ const contactInfo = [
   {
     id: 1,
     name: 'Email',
-    value: 'priya.sharma@example.com',
-    href: 'mailto:priya.sharma@example.com',
+    value: 'lavanya.d@example.com',
+    href: 'mailto:lavanya.d@example.com',
     icon: Mail,
     color: 'text-violet-500 bg-violet-500/10 hover:bg-violet-500/20',
   },
@@ -55,16 +55,16 @@ const contactInfo = [
   {
     id: 3,
     name: 'LinkedIn',
-    value: 'linkedin.com/in/priyasharma',
-    href: 'https://linkedin.com/in/priyasharma',
+    value: 'linkedin.com/in/lavanyad',
+    href: 'https://linkedin.com/in/lavanyad',
     icon: Linkedin,
     color: 'text-blue-500 bg-blue-500/10 hover:bg-blue-500/20',
   },
   {
     id: 4,
     name: 'GitHub',
-    value: 'github.com/priyasharma',
-    href: 'https://github.com/priyasharma',
+    value: 'github.com/lavanyad',
+    href: 'https://github.com/lavanyad',
     icon: Github,
     color: 'text-slate-700 dark:text-slate-300 bg-slate-500/10 hover:bg-slate-500/20',
   },
@@ -251,7 +251,7 @@ export default function Contact() {
                           name="name"
                           value={form.name}
                           onChange={handleChange}
-                          placeholder="Priya Sharma"
+                          placeholder="D Lavanya"
                           className={`w-full px-4 py-3 rounded-xl bg-slate-100/50 dark:bg-slate-900/50 border ${
                             errors.name ? 'border-red-500' : 'border-slate-200/50 dark:border-slate-800/60'
                           } text-sm focus:outline-none focus:border-primary text-slate-800 dark:text-slate-100 transition-colors`}
@@ -275,7 +275,7 @@ export default function Contact() {
                           name="email"
                           value={form.email}
                           onChange={handleChange}
-                          placeholder="priya@example.com"
+                          placeholder="lavanya@example.com"
                           className={`w-full px-4 py-3 rounded-xl bg-slate-100/50 dark:bg-slate-900/50 border ${
                             errors.email ? 'border-red-500' : 'border-slate-200/50 dark:border-slate-800/60'
                           } text-sm focus:outline-none focus:border-primary text-slate-800 dark:text-slate-100 transition-colors`}
@@ -300,7 +300,7 @@ export default function Contact() {
                         value={form.message}
                         onChange={handleChange}
                         rows={5}
-                        placeholder="Hi Priya, I'd like to collaborate on an ECE project..."
+                        placeholder="Hi Lavanya, I'd like to collaborate on an ECE project..."
                         className={`w-full px-4 py-3 rounded-xl bg-slate-100/50 dark:bg-slate-900/50 border ${
                           errors.message ? 'border-red-500' : 'border-slate-200/50 dark:border-slate-800/60'
                         } text-sm focus:outline-none focus:border-primary text-slate-800 dark:text-slate-100 transition-colors resize-none`}
@@ -354,7 +354,7 @@ export default function Contact() {
                     </h3>
                     
                     <p className="text-sm text-slate-600 dark:text-slate-400 max-w-sm leading-relaxed">
-                      Thank you for reaching out. Your message has been received successfully. Priya will get back to you shortly!
+                      Thank you for reaching out. Your message has been received successfully. Lavanya will get back to you shortly!
                     </p>
 
                     <button
