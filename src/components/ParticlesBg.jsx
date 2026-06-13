@@ -26,14 +26,22 @@ export default function ParticlesBg() {
         this.vx = (Math.random() - 0.5) * 0.6;
         this.vy = (Math.random() - 0.5) * 0.6;
         this.radius = Math.random() * 2 + 1;
-        // Assign a color based on purple (primary), pink (secondary), or blue (accent)
-        const rand = Math.random();
-        if (rand < 0.4) {
-          this.color = theme === 'dark' ? 'rgba(139, 92, 246, 0.45)' : 'rgba(139, 92, 246, 0.2)'; // Purple
-        } else if (rand < 0.7) {
-          this.color = theme === 'dark' ? 'rgba(236, 72, 153, 0.45)' : 'rgba(236, 72, 153, 0.2)'; // Pink
+        
+        // 15% chance to be a heart shape
+        this.isHeart = Math.random() < 0.15;
+        
+        if (this.isHeart) {
+          this.color = theme === 'dark' ? 'rgba(236, 72, 153, 0.65)' : 'rgba(236, 72, 153, 0.35)'; // Pink hearts
         } else {
-          this.color = theme === 'dark' ? 'rgba(56, 189, 248, 0.45)' : 'rgba(56, 189, 248, 0.2)'; // Blue
+          // Assign a color based on purple (primary), pink (secondary), or blue (accent)
+          const rand = Math.random();
+          if (rand < 0.4) {
+            this.color = theme === 'dark' ? 'rgba(139, 92, 246, 0.45)' : 'rgba(139, 92, 246, 0.2)'; // Purple
+          } else if (rand < 0.7) {
+            this.color = theme === 'dark' ? 'rgba(236, 72, 153, 0.45)' : 'rgba(236, 72, 153, 0.2)'; // Pink
+          } else {
+            this.color = theme === 'dark' ? 'rgba(56, 189, 248, 0.45)' : 'rgba(56, 189, 248, 0.2)'; // Blue
+          }
         }
       }
 
@@ -60,10 +68,27 @@ export default function ParticlesBg() {
       }
 
       draw() {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        ctx.fillStyle = this.color;
-        ctx.fill();
+        if (this.isHeart) {
+          ctx.save();
+          ctx.fillStyle = this.color;
+          const size = this.radius * 2.5;
+          const x = this.x - size / 2;
+          const y = this.y - size / 2;
+          ctx.beginPath();
+          ctx.moveTo(x + size / 2, y + size / 5);
+          ctx.bezierCurveTo(x + size / 2, y, x, y, x, y + size / 3);
+          ctx.bezierCurveTo(x, y + (size * 2) / 3, x + size / 2, y + size, x + size / 2, y + size);
+          ctx.bezierCurveTo(x + size / 2, y + size, x + size, y + (size * 2) / 3, x + size, y + size / 3);
+          ctx.bezierCurveTo(x + size, y, x + size / 2, y, x + size / 2, y + size / 5);
+          ctx.closePath();
+          ctx.fill();
+          ctx.restore();
+        } else {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+          ctx.fillStyle = this.color;
+          ctx.fill();
+        }
       }
     }
 
